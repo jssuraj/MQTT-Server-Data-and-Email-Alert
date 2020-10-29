@@ -8,8 +8,8 @@ import random
 import time
 
 #Using Thingspeak as MQTT broker
-channelID = "1210433" #channel ID of thingspeak
-apiKey1 = "SRMN0UNO4AANXCY7" #write API Key of Channel 
+channelID = "your_channel_id" #channel ID of thingspeak
+apiKey1 = "Write_API_Key" #write API Key of Channel 
 topic = "channels/" + channelID + "/publish/" + apiKey1 # topic
 mqttHost = "mqtt.thingspeak.com"
 tTransport = "tcp"

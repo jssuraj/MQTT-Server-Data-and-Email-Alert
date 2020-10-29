@@ -9,11 +9,10 @@ import smtplib, ssl
 
 #below are the credentials for Thingspeak
 
-channelID = "1210433"
-apiKey2 = "Y4MJCVGZOYP4VF4A"
+channelID = "Your_channel_id"
+apiKey2 = "Your_read_api_key"
 x1="http://api.thingspeak.com/channels/"
 x2="/feeds.json?api_key="
-x3="&results=2"
 x= x1+channelID +x2  + apiKey2
 
 
